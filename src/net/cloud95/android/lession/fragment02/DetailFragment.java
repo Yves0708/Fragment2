@@ -27,6 +27,8 @@ public class DetailFragment extends Fragment {
     
     // 更新畫面元件內容
     public void updateDetail(int position) {
+    	title_text.setText(DataSet.fruits[position]);
+    	content_text.setText(DataSet.contents[position]);
     }
 
 }

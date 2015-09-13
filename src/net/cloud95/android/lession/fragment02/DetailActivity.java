@@ -7,7 +7,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 
 // 為了支援Support Library，所以繼承自FragmentActivity
-//給Intent後獨立的畫面使用
+//給Intent後獨立的畫面使用(直立畫面使用)
 public class DetailActivity extends FragmentActivity {
 
     // 負責顯示詳細資料的Fragment
